@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+    <html lang="sv">
+        <head>
+    <meta charset="utf-8" />
+    <title>Slutuppgift Nellie Johnsson</title>
+    <!--Stylesheet file-->
+    <link href="final.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div id="container">
+        <h1>Glosförhör</h1>
+        <h2>Översätt från svenska till engelska</h2>
+        <form>
+            <input type="button" value="Starta" id="startBtn" class="btn" onClick="startGame();" />
+            <input type="button" value="Nästa" id="nextBtn" class="btn" onClick="questionTime();" />
+        </form>
+        <div class="taskItem">
+            Uppgift 1
+            <div class="toggle">
+                <p class="pa"></p>
+                <input type="text" value="0" />
+            </div>
+        </div>
+        <div class="taskItem">
+            Uppgift 2
+            <div class="toggle">
+                <p class="pa"></p>
+                <input type="text" value="0" />
+            </div>
+        </div>
+        <div class="taskItem">
+            Uppgift 3
+            <div class="toggle">
+                <p class="pa"></p>
+                <input type="text" value="0" />
+            </div>
+        </div>
+        <div class="taskItem">
+            Uppgift 4
+            <div class="toggle">
+                <p class="pa"></p>
+                <input type="text" value="0" />
+            </div>
+        </div>
+        <div class="taskItem">
+            Uppgift 5
+            <div class="toggle">
+                <p class="pa"></p>
+                <input type="text" value="0" />
+            </div>
+        </div>
+        <div id="facit">
+            <p id="resultat"></p>
+            <input type="button" value="Visa Facit" class="toggleBtn" onClick="cheatSheet();" />
+            <input type="button" value="Omspel" class="toggleBtn" onClick="reset();" />
+        </div>
+    </div>
+
+    <!--Javscript file-->
+    <script type="text/javascript" src="final.js"></script>
+</body></html>
